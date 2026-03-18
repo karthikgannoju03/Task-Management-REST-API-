@@ -122,12 +122,14 @@ Authorization: Bearer <your_token>
 🔐 Authentication
 
 Register User
-
+```
 POST /api/auth/register
+```
 
 Login User
-
+```
 POST /api/auth/login
+```
 
 
 ---
