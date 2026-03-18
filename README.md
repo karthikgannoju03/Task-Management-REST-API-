@@ -98,7 +98,7 @@ http://127.0.0.1:5000
 
 ---
 
-### 🔐 Authentication
+## 🔐 Authentication
 
 This API uses JWT tokens.
 
@@ -117,20 +117,22 @@ Authorization: Bearer <your_token>
 ```
 ---
 
-### 📌 API Endpoints
+## 📌 API Endpoints
+
 🔐 Authentication
+
 Register User
----
+
 POST /api/auth/register
----
+
 Login User
----
+
 POST /api/auth/login
----
+
 
 ---
 
-### 📋 Tasks
+## 📋 Tasks
 
 Get All Tasks
 ```
@@ -150,14 +152,14 @@ DELETE /api/tasks/<id>
 ```
 ---
 
-### 👥 Users
+## 👥 Users
 Get All Users
 ```
 GET /api/users/
 ```
 ---
 
-### 📊 Sample Request
+## 📊 Sample Request
 Create Task
 ```
 {
@@ -167,7 +169,7 @@ Create Task
 ```
 ---
 
-### 📊 Sample Response
+## 📊 Sample Response
 ```
 {
   "id": 1,
@@ -179,7 +181,7 @@ Create Task
 ```
 ---
 
-### ❗ Error Handling
+## ❗ Error Handling
 
 200 → Success
 
@@ -193,7 +195,7 @@ Create Task
 
 ---
 
-### Testing
+## Testing
 
 Use tools like:
 
@@ -206,7 +208,7 @@ Use tools like:
 ---
 
 
-### 🎯 What I Learned
+## 🎯 What I Learned
 
 -REST API Design
 
@@ -222,7 +224,7 @@ Use tools like:
 
 ---
 
-### 📌 Future Improvements
+## 📌 Future Improvements
 
 Pagination & Filtering
 
