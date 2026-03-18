@@ -96,6 +96,8 @@ python run.py
 ### 6. Access API
 http://127.0.0.1:5000
 
+---
+
 ### 🔐 Authentication
 
 This API uses JWT tokens.
@@ -113,6 +115,7 @@ Header Format:
 Authorization: Bearer <your_token>
 
 ```
+---
 
 ### 📌 API Endpoints
 🔐 Authentication
@@ -123,6 +126,8 @@ POST /api/auth/register
 Login User
 ---
 POST /api/auth/login
+---
+
 ---
 
 ### 📋 Tasks
@@ -143,11 +148,15 @@ Delete Task
 ```
 DELETE /api/tasks/<id>
 ```
+---
+
 ### 👥 Users
 Get All Users
 ```
 GET /api/users/
 ```
+---
+
 ### 📊 Sample Request
 Create Task
 ```
@@ -156,6 +165,8 @@ Create Task
   "description": "Finish Flask REST API"
 }
 ```
+---
+
 ### 📊 Sample Response
 ```
 {
@@ -166,6 +177,8 @@ Create Task
   "priority": "medium"
 }
 ```
+---
+
 ### ❗ Error Handling
 
 200 → Success
@@ -178,6 +191,8 @@ Create Task
 
 404 → Not Found
 
+---
+
 ### Testing
 
 Use tools like:
@@ -187,6 +202,9 @@ Use tools like:
 -Thunder Client (VS Code)
 
 -curl
+
+---
+
 
 ### 🎯 What I Learned
 
@@ -201,6 +219,8 @@ Use tools like:
 -Database Integration
 
 -API Testing
+
+---
 
 ### 📌 Future Improvements
 
